@@ -11,10 +11,12 @@ body {
 }
 
 a {
+	color: #86c9db;
 	
 }
 
 a:hover {
+	color: #f9ad48;
 	
 }
 
@@ -24,8 +26,8 @@ a:hover {
 
 #app-intro {
 	margin-bottom: 0px;
-	background: radial-gradient(#2c79d0, #1565c0);*/
-	padding-right: 20px;
+	background: radial-gradient(#2c79d0, #1565c0);
+	padding-right: 0px;
 }
 
 .modal-img {
@@ -46,10 +48,13 @@ footer.page-footer {
 #logo {
 
 	padding-left: 30px;
-	padding-right: 30px;
-	border-right: 1px solid #FFFFFF;
-	margin-right: 30px;
-	width: 200px;
+	padding-top: 20px;
+
+	margin-right: 10px;
+}
+
+.nav-wrapper {
+	background: radial-gradient(#2c79d0, #1458a5);
 }
 
 
@@ -60,20 +65,25 @@ footer.page-footer {
 }
 
 h5.welcome {
-	font-family: 'Roboto Slab', 'Roboto', Arial, Sans-serif;
+	
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: 200;
 }
 
 p.welcome-text {
 	margin-top: 0px;
 	padding-top: 0px;
+	font-weight: 200;
 
 }
 
 .tagline {
-	margin-left: 100px;
 	padding-left: 30px;
+	padding-top:0px;
+	font-family: 'Roboto Slab', 'Roboto', Arial, Sans-serif;
 }
 
 .collection .collection-item.avatar .circle {
@@ -134,6 +144,22 @@ li .collapsible-header:hover {
 	background-color: #1565c0;
 	color: white;
 
+}
+
+.footer-copyright {
+	background: radial-gradient(#2c79d0, #1458a5);
+	
+}
+
+.collapsible li.active .collapsible-header {
+	background-color: #1565c0;
+	color: white;
+
+}
+
+.more-info {
+	margin-left: 2rem;
+	margin-bottom: 2rem;
 }
 
 /* Form styles */
