@@ -64,12 +64,7 @@ footer.page-footer {
 	padding-right: 0px;
 }
 
-h5.welcome {
-	
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-	font-size: 22px;
-	color: #ffffff;
+.welcome {
 	font-weight: 200;
 }
 
