@@ -55,8 +55,12 @@ footer.page-footer {
 
 .nav-wrapper {
 	background: radial-gradient(#2c79d0, #1458a5);
+	width: 100%;
 }
 
+.mobile-menu {
+	padding-left: 10px;
+}
 
 
 .welcome-div {
