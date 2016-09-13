@@ -30,12 +30,7 @@ a:hover {
 	padding-right: 0px;
 }
 
-.modal-img {
-	float: left;
-	max-height: 200px;
-	padding: 0px 10px 30px 0px;
-	align: left;
-}
+
 
 main {
 	margin: 0;
@@ -129,9 +124,6 @@ p.welcome-text {
 
 ul.collection .item-button:hover {
 	background-color: #f0c363;
-
-
-
 }
 
 li .collapsible-header:hover {
@@ -156,9 +148,60 @@ li .collapsible-header:hover {
 
 }
 
+.modal {
+  background-color: #fafafa;
+  padding: 0;
+
+}
+
+.modal-img {
+	float: left;
+	max-height: 200px;
+	margin: 0px 20px 30px 0px;
+	align: left;
+
+
+}
+
+.modal-content h4 {
+	font-size: 1.5rem;
+	color: #FFFFFF;
+	background: #1565c0;
+	padding: 7px;
+	padding-left: 12px;
+	font-weight: 200;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.36)
+
+}
+
 .more-info {
 	margin-left: 2rem;
 	margin-bottom: 2rem;
+}
+
+.item-address {
+	font-weight: 300;
+	color: #1565c0;
+	font-size: 1rem;
+}
+
+.modal-footer .btn-flat {
+	background: #1E88E5;
+	color: #ffffff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.36)
+
+}
+
+.modal-footer .btn-flat:hover {
+	background: #0c98e9;
+}
+
+.modal-footer .btn-flat:active {
+	background: #1565c0;
+}
+a.modal-trigger:hover {
+	color: #ffffff;
+	background: #0c98e9;
 }
 
 /* Form styles */
